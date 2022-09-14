@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    Week6
+    Week7_首頁
   </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
@@ -68,7 +68,7 @@
 </div>
 
 <!-- Properties -->
-<div class="bg-dark1">
+<div class="bg-dark1" data-aos="fade-up" data-aos-duration="2000">
   <div class="container">
     <ul class="row list-unstyled properties justify-content-lg-around">
       <li class="property-title text-white col-lg-3 position-relative p-0">
@@ -99,7 +99,7 @@
   </div>
 
   <!-- Process -->
-  <div class="bg-dark2 process">
+  <div class="bg-dark2 process" data-aos="fade-up">
     <h5 class="process-title position-relative h3 text-white text-center m-0 py-7">預期上課流程</h5>
     <ul class="container-fluid row g-5 process-card m-0 list-unstyled">
       <li class="card position-relative rounded-3 border border-white bg-dark2 p-8 mb-8 col-lg-3">
@@ -137,9 +137,10 @@
   </div>
 
   <!-- Features -->
-  <div class="container-fluid">
+  <div class="container-fluid" data-aos="fade-up">
     <ul class="row list-unstyled">
-      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg01 rounded-0 position-relative border-0">
+      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg01 rounded-0 position-relative border-0"
+        data-aos="fade-up">
         <div class="card-body p-0">
           <h5 class="card-title material-icons fs-1 fs-lg-3">question_answer</h5>
           <h6 class="card-subtitle mb-2 text-white fs-2 mt-3 text-nowrap">對症下藥，專案製作</h6>
@@ -148,7 +149,8 @@
         </div>
       </li>
 
-      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg02 rounded-0 position-relative border-0">
+      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg02 rounded-0 position-relative border-0"
+        data-aos="fade-up">
         <div class="card-body p-0">
           <h5 class="card-title material-icons fs-1 fs-lg-3">tips_and_updates</h5>
           <h6 class="card-subtitle mb-2 text-white fs-2 mt-3 text-nowrap">激發你的學習潛力</h6>
@@ -157,7 +159,8 @@
         </div>
       </li>
 
-      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg03 rounded-0 position-relative border-0">
+      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg03 rounded-0 position-relative border-0"
+        data-aos="fade-up">
         <div class="card-body p-0">
           <h5 class="card-title material-icons fs-1 fs-lg-3">thumb_up</h5>
           <h6 class="card-subtitle mb-2 text-white fs-2 mt-3 text-nowrap">學習效率</h6>
@@ -166,7 +169,8 @@
         </div>
       </li>
 
-      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg04 rounded-0 position-relative border-0">
+      <li class="card feature-card col-lg-3 col-md-6 col-12 feature-card-bg04 rounded-0 position-relative border-0"
+        data-aos="fade-up">
         <div class="card-body p-0">
           <h5 class="card-title material-icons fs-1 fs-lg-3">supervisor_account</h5>
           <h6 class="card-subtitle mb-2 text-white fs-2 mt-3 text-nowrap">一對一指導</h6>
@@ -178,7 +182,7 @@
   </div>
 
   <!-- Program You Wanna Learn -->
-  <div class="bg-dark1">
+  <div class="bg-dark1" data-aos="fade-up">
     <div class="container-fluid py-7">
       <h2 class="h2 text-center text-white">你想要學習的程式，都在這裡</h2>
       <div class="border border-primary mx-auto w-50px mt-3 mb-6"></div>
@@ -236,7 +240,7 @@
     </div>
   </div>
 
-  <div class="bg-dark2 hot-courses py-9">
+  <div class="bg-dark2 hot-courses py-9" data-aos="fade-up">
     <h5 class="hot-courses-title position-relative h3 text-white text-center m-0 py-7">熱門推薦課程</h5>
 
     <div class="container d-flex flex-column align-items-center">
@@ -310,7 +314,7 @@
   </div>
 
   <!-- Article Share-->
-  <div class="bg-dark2">
+  <div class="bg-dark2" data-aos="fade-up">
     <div class="container py-7">
       <h2 class="h2 text-center text-white">文章分享</h2>
       <div class="border border-primary mx-auto w-50px mt-3 mb-6"></div>
@@ -381,7 +385,7 @@
   </div>
 
   <!-- RECOMMEND -->
-  <div class="bg-slider recommend">
+  <div class="bg-slider recommend" data-aos="fade-up">
     <div class="container py-7">
       <h2 class="h2 text-center text-white">專屬你的學習課程<br> 超過 3000 位學員得到了程式超能力</h2>
       <div class="border border-primary mx-auto w-50px mt-3 mb-6"></div>
@@ -496,7 +500,7 @@
     </div>
   </div>
 
-    <footer class="footer bg-dark4">
+    <footer class="footer bg-dark4" data-aos="fade-up">
       <p class="text-center text-white  m-0">Coding Home © 2022 All Rights Reserved</p>
     </footer>
 
@@ -560,6 +564,34 @@
             // loop: true
           }
         }
+      });
+    </script>
+
+    <!-- 視差滾動 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 100, // values from 0 to 3000, with step 50ms
+        duration: 600, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
       });
     </script>
 
