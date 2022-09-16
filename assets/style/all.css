@@ -14096,12 +14096,9 @@ fieldset:disabled .btn {
 
 .properties .property-card .material-icons {
   font-size: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
-  background-image: -o-linear-gradient(top, #09ACF5, #62DB54);
-  background-image: linear-gradient(180deg, #09ACF5, #62DB54);
   -webkit-background-clip: text;
           background-clip: text;
-  color: transparent;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
