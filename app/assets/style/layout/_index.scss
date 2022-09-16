@@ -119,9 +119,9 @@
     .material-icons {
       font-size: 50px;
 
-      @include gradient-y;
+      // @include gradient-y;
       background-clip: text;
-      color: transparent;
+      color: $white;
     }
   }
 
@@ -130,9 +130,6 @@
 
     .property-title {
       text-align: left;
-      // display: flex;
-      // justify-content: start;
-      // align-items: center;
 
       &::after {
         content: "";
