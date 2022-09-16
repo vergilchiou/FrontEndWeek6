@@ -14096,8 +14096,6 @@ fieldset:disabled .btn {
 
 .properties .property-card .material-icons {
   font-size: 50px;
-  -webkit-background-clip: text;
-          background-clip: text;
   color: #ffffff;
 }
 
